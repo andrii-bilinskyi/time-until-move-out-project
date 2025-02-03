@@ -1,0 +1,37 @@
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #8e44ad, #3498db);
+  color: white;
+  text-align: center;
+}
+
+/* Контейнер для таймера */
+.container {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Заголовок */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Таймер */
+.countdown {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.countdown span {
+  color: #f1c40f;
+}
